@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo-lockup.png" alt="龙虎榜分析 Dragon–Tiger List Analysis" width="640">
+</p>
+
 # 龙虎榜个股分析（A 股）
 
 输入一只上过龙虎榜的票（代码或名称），输出这只票的**全套龙虎榜解读**：
@@ -39,6 +43,11 @@ python scripts/selftest.py
 
 ```
 SKILL.md              skill 说明（给 agent 读的入口）
+assets/
+  logo.svg            方形徽章图标 512×512（头像 / favicon / 报表页头）
+  logo-mark.svg       纯徽章（透明底，只有双色环 + 龙虎）
+  logo-lockup.svg     横版组合：徽章 + 龙虎榜分析 + 英文副标（自带深色底板）
+  logo*.png           以上各版式的 PNG 导出
 scripts/
   run_stock.py        ★ 单股分析入口（薄壳，逻辑在 stock_analysis.py）
   stock_analysis.py   单股主编排：榜单还原 / 席位归集 / 该股历史 / 综合结论
@@ -55,6 +64,13 @@ references/
   indicators.md       指标口径唯一来源（报告数字怎么来的）
   seats_knowledge.md  席位知识库人读版
 ```
+
+## 视觉标识
+
+徽章 = **双色断环 + 环心「龙虎」**：红弧为「龙」（A 股口径的涨），绿弧为「虎」（跌）；
+两弧一粗一细、首尾相衔，取「龙虎相争、此消彼长」之意，环心两字直接点题。
+配色与报告同源：红 `#FF9382→#E5453A` / 绿 `#5CE6B6→#129E74` / 主色 `#8FB0FF→#4C6BFF`。
+字体为微软雅黑 Bold，**已转为矢量路径**，`assets/*.svg` 不依赖系统字体、不联网。
 
 ## 几个关键口径
 
