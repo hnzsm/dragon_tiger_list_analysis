@@ -1,0 +1,24 @@
+# 接口缓存（可重新拉取，体积大）
+cache/
+
+# 生成的报告产物
+out/
+
+# 开发期探针（含本地 cookie 等敏感文件）
+_probe/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地工作区记忆 / 编辑器
+.workbuddy/
+.idea/
+.vscode/
+.DS_Store
+
+# Cookie / 凭证，绝不入库
+*cookie*.txt
+em_cookie.txt
