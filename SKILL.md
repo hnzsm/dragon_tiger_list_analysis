@@ -116,9 +116,9 @@ references/
   indicators.md      指标口径唯一来源（报告数字怎么来的）
   seats_knowledge.md 席位知识库人读版（多平台交叉验证）
 assets/
-  logo.svg           方形徽章图标 512（头像/favicon/报表页头）
-  logo-mark.svg      纯徽章（透明底）
-  logo-lockup.svg    横版字标（徽章 + 龙虎榜分析 + 英文副标）
+  logo.svg           方形徽章图标 512（头像/favicon/报表页头）—— 太极双鱼环 + 环心龙虎
+  logo-mark.svg      纯徽章（透明底，viewBox 紧贴内容）
+  logo-lockup.svg    横版字标（徽章 + 龙虎榜分析 + 英文副标，宽度自适应）
 _probe/              开发期探针（接口验证留档、logo 生成器，不入库）
 ```
 
